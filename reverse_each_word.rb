@@ -4,5 +4,5 @@ def reverse_each_word (sentence)
   reversedArr = arr.collect {
     |item| item.reverse
   }
-  reversedArr
+  reversedArr.join(' ')
 end
